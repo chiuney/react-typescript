@@ -6,6 +6,7 @@ const App: React.FC<{ compiler: string, framework: string }> = (props) => {
     <div>
       <div>{props.compiler}</div>
       <div>{props.framework}</div>
+      <div>{props.framework}</div>
     </div>
   );
 }
